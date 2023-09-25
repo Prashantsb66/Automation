@@ -13,7 +13,7 @@ public class Assrt {
 public static void main(String[] args) {
 	WebDriver driver=new ChromeDriver();
 	driver.get("https://www.google.com");
-	String a="Soogle";
+	String a="foogle";
 	String s = driver.getTitle();
 	SoftAssert s1=new SoftAssert();
 	Assert.assertEquals(s,a);
