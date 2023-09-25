@@ -1,5 +1,5 @@
 package com.actitime.generic;
 
 public class Baseclass {
-
+@Test
 }
